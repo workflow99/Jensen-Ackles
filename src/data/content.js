@@ -10,6 +10,8 @@ export const profile = {
     title: 'Public Relations & Media Inquiries',
     instagram: 'jadeanderson9289',
     instagramUrl: 'https://instagram.com/jadeanderson9289',
+    tiktok: 'jadeanderson33',
+    tiktokUrl: 'https://tiktok.com/@jadeanderson33',
     note: 'For verified representation details and booking inquiries, reach out on Instagram.'
   }
 }

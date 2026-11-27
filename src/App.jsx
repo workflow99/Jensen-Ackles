@@ -253,6 +253,7 @@ function Representation() {
               <div className="mt-7 space-y-4 text-xs">
                 <a className="flex items-center gap-3 hover:text-gold" href="tel:+16592429906"><Phone size={15} />+1 (659) 242-9906</a>
                 <a className="flex items-center gap-3 hover:text-gold" href={publicist.instagramUrl} target="_blank" rel="noreferrer"><Instagram size={15}/>@{publicist.instagram}</a>
+                <a className="flex items-center gap-3 hover:text-gold" href={publicist.tiktokUrl} target="_blank" rel="noreferrer"><svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M16.5 3c.3 2.1 1.5 3.6 3.5 3.9v3c-1.3 0-2.5-.4-3.5-1v6.6a5.6 5.6 0 1 1-5.6-5.6c.3 0 .7 0 1 .1v3.2a2.5 2.5 0 1 0 1.6 2.3V3h3z"/></svg>@{publicist.tiktok}</a>
               </div>
               <p className="mt-7 border-l-2 border-gold pl-4 text-[10px] leading-5 text-ink/50">{publicist.note}</p>
             </div>
