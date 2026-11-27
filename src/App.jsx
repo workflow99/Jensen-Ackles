@@ -262,6 +262,7 @@ function Representation() {
         <div data-reveal className="mt-20 flex flex-col justify-between gap-6 border-t border-ink/15 pt-8 sm:flex-row sm:items-center">
           <div><p className="font-display text-3xl">Let’s connect<span className="text-gold">.</span></p><p className="mt-2 text-xs text-ink/55">For professional and media inquiries.</p></div>
           <a href={publicist.instagramUrl} target="_blank" rel="noreferrer" className="group flex w-fit items-center gap-3 border border-ink/30 px-6 py-4 text-[9px] font-bold uppercase tracking-[.2em] transition hover:bg-ink hover:text-paper"><Instagram size={15}/> DM on Instagram <ArrowUpRight size={15} className="transition group-hover:translate-x-0.5 group-hover:-translate-y-0.5"/></a>
+          <a href={publicist.tiktokUrl} target="_blank" rel="noreferrer" className="group flex w-fit items-center gap-3 border border-ink/30 px-6 py-4 text-[9px] font-bold uppercase tracking-[.2em] transition hover:bg-ink hover:text-paper"><svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M16.5 3c.3 2.1 1.5 3.6 3.5 3.9v3c-1.3 0-2.5-.4-3.5-1v6.6a5.6 5.6 0 1 1-5.6-5.6c.3 0 .7 0 1 .1v3.2a2.5 2.5 0 1 0 1.6 2.3V3h3z"/></svg> DM on TikTok <ArrowUpRight size={15} className="transition group-hover:translate-x-0.5 group-hover:-translate-y-0.5"/></a>
         </div>
       </div>
     </section>
